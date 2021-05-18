@@ -1,7 +1,8 @@
 .b-icon{
-    font-size: 3rem;
+    font-size: calc(1.3rem + 1.5vw);
     margin: 15px;
     color: var(--color-blue);
+    text-shadow: 3px 3px 4px var(--color-shadow);
 
     &--xl{
         font-size: 5rem;
@@ -11,6 +12,8 @@
         color: var(--color-white);
         -webkit-transition: 0.25s;
         transition: 0.3s;
+        font-size: calc(1.3rem + 1.8vw);
+        margin: 12px;
     }
 
 }

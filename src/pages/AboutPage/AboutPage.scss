@@ -1,0 +1,50 @@
+.c-about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 6vh;
+    color: var(--color-blue);
+    background-image: url(https://cdn.dribbble.com/users/931813/screenshots/3436305/artboard_2-8-02.png);
+    background-size: 35%;
+
+    &__box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-color: var(--color-background);
+        width: 65%;
+        height: 100vh;
+    }
+    
+    &__info{
+        display: flex;
+        flex-direction: row;
+        width: 75%;
+    }
+
+    &__title{
+        font-size: 4vw;
+        text-shadow: 3px 3px 4px var(--color-shadow-2);
+    }
+
+    &__photo{
+        background-image: url(../../assets/images/Sulo.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 7vh;
+        width:50%;
+        height: 40vh;
+        border-radius: 100%;
+    }
+
+    &__sulo{
+        text-align: initial;
+        width: 60%;
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin-left: 5vw;
+    }
+}
