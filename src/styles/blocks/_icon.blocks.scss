@@ -1,0 +1,16 @@
+.b-icon{
+    font-size: 3rem;
+    margin: 15px;
+    color: var(--color-blue);
+
+    &--xl{
+        font-size: 5rem;
+    }
+
+    &:hover{
+        color: var(--color-white);
+        -webkit-transition: 0.25s;
+        transition: 0.3s;
+    }
+
+}
