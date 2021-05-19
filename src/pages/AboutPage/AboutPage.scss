@@ -4,24 +4,25 @@
     text-align: center;
     align-items: center;
     margin-top: 6vh;
-    color: var(--color-blue);
-    background-image: url(https://cdn.dribbble.com/users/931813/screenshots/3436305/artboard_2-8-02.png);
-    background-size: 35%;
+    color: var(--color-white);
+    background-image: url(../../assets/images/city-wallpaper.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
     &__box{
         display: flex;
         flex-direction: column;
-        text-align: center;
         align-items: center;
-        background-color: var(--color-background);
         width: 65%;
         height: 100vh;
+        margin-top: 3vh;
     }
     
-    &__info{
+    &__descript{
         display: flex;
         flex-direction: row;
-        width: 75%;
+        width: 80%;
     }
 
     &__title{
@@ -34,17 +35,47 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        margin-top: 7vh;
-        width:50%;
+        margin-top: 8vh;
+        width:45%;
         height: 40vh;
         border-radius: 100%;
+        box-shadow: 4px 3px 3px var(--color-shadow);
     }
 
     &__sulo{
-        text-align: initial;
+        margin-top: 5vh;
+        display: flex;
+        justify-content: center;
         width: 60%;
+        border-radius: 60px;
+        background-color: var(--color-blue-shadow);
+        text-align: initial;
         font-size: 1.7rem;
         font-weight: 700;
         margin-left: 5vw;
+        box-shadow: 4px 3px 3px var(--color-shadow);
+
+        & p{
+            margin: 30px;
+        }
+    }
+
+    &__info{
+        margin-top: 5vh;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        border-radius: 60px;
+        background-color: var(--color-blue-shadow);
+        box-shadow: 4px 3px 3px var(--color-shadow);
+    }
+
+    &__hobbies{
+        margin: 30px;
+        text-align: initial;
+        width: 75%;
+        font-size: 1.7rem;
+        font-weight: 700;
+        ;
     }
 }

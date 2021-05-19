@@ -11,14 +11,11 @@ export function HomePage() {
 
             <nav className="c-home__nav">
 
-                <NavLink className="c-home__link"  exact to="/exp
-                ">Experiencia</NavLink>
+                <NavLink className="c-home__link"  exact to="/exp">Experiencia</NavLink>
 
-                <NavLink className="c-home__link"  exact to="/formation
-                ">Formación</NavLink>
+                <NavLink className="c-home__link"  exact to="/formation">Formación</NavLink>
 
-                <NavLink className="c-home__link" exact to="/skills
-                ">Skills</NavLink>
+                <NavLink className="c-home__link" exact to="/skills">Skills</NavLink>
 
                 <NavLink className="c-home__link" exact to="/about">Sobre mi</NavLink>
 

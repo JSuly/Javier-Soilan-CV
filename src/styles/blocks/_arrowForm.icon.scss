@@ -1,0 +1,15 @@
+.i-arrow {
+    background-image: url("../../assets/images/flecha-derecha.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 11px;
+    margin: 7px 0;
+    position: relative;
+    left: 15px;
+
+    &--active {
+        background-image: url("../../assets/images/flecha-abajo.svg");
+    }
+}
