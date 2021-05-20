@@ -29,13 +29,16 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 10vh;
+        width: 70%;
     }
 
     &__business{
-        margin: 40px 0;
-        font-size: 2rem;
-        color: var(--color-white);
-        -webkit-text-stroke: 2.5px var(--color-shadow);
+        font-family: 'Press Start 2P';
+        margin-top:15vh;
+        font-size: 1.8rem;
+        color: var(--color-yellow);
+        -webkit-text-stroke: 2px var(--color-black);
+        text-shadow: 5px 4px 4px var(--color-black-2);
     }
 
 
@@ -45,7 +48,7 @@
         text-align: center;
         background-color: var(--color-blue-shadow);
         border-radius: 25px;
-        width: 60%;
+        width: 40%;
         box-shadow: 4px 3px 3px var(--color-shadow);
         list-style-type: none;
     }

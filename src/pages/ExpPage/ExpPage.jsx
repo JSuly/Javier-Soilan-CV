@@ -1,6 +1,4 @@
 import './ExpPage.scss';
-import Work from '../../assets/images/portfolio.svg';
-import Knife from '../../assets/images/knife.svg';
 
 export function ExpPage(){
     return(
