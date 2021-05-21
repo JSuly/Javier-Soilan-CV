@@ -33,7 +33,11 @@ export function Menu() {
 
         <div className="c-menu">
 
-            <NavLink className="c-menu__logo" exact to="/"><img className="c-menu__at" src={Arroba}/><h3>J_Suly</h3><p className="c-menu__work">Front-end Developer</p></NavLink>
+            <NavLink className="c-menu__logo" exact to="/">
+                <img className="c-menu__at" src={Arroba}/>
+                <h3>J_Suly</h3>
+                <p className="c-menu__work">Full-stack Developer</p>
+            </NavLink>
 
             
 

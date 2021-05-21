@@ -1,4 +1,4 @@
-.c-popUp{
+.b-popUp{
     position: fixed;
     margin: 0;
     top: 0;
@@ -27,7 +27,7 @@
 
     &__title{
         font-family: 'Press Start 2P';
-        font-size: 2.5rem;
+        font-size: 2.2vw;
         color: var(--color-yellow);
         -webkit-text-stroke: 2px var(--color-black-2);
         text-shadow: 5px 4px 4px var(--color-black-2);

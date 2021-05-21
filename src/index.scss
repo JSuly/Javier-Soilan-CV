@@ -5,9 +5,13 @@
 
 //************SETTINGS************//
 @import './styles/settings/colors.settings'; // COLORS
+@import './styles/animations/animations'; // ANIMATIONS
 
 //************ICONS************//
 @import './assets/icons/style.scss';
 @import './assets/icons/variables.scss';
 @import './styles/blocks/icon.blocks';
 @import './styles/blocks/arrowForm.icon'; //? ARROW ICON
+
+//************STYLE************//
+@import './styles/blocks/level.blocks';

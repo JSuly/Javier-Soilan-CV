@@ -4,4 +4,32 @@ html,body{
     width: 100%;
     background-color: var(--color-background);
     font-family: 'Roboto';
-}
+    overflow-y: scroll auto;
+    overflow-x: hidden;
+      
+    }
+
+    ::-webkit-scrollbar{
+        width: 15px;
+        background: #443d3d;
+        
+    }
+
+    ::-webkit-scrollbar-thumb{
+        
+        background: white;
+        border-radius: 15px;
+        overflow-y: scroll auto;
+        overflow-x: hidden;
+        max-height: 30vh;
+    }
+
+    ::-webkit-scrollbar{
+        width: 12px;
+        background: #443d3d;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background: var(--color-white);
+        border-radius: 10px;
+    }

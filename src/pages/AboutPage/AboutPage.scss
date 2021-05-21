@@ -3,7 +3,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-top: 4vh;
+    margin-top: 7vh;
     color: var(--color-white);
     background-image: url(../../assets/images/city-wallpaper.gif);
     background-size: cover;
@@ -16,9 +16,9 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        margin-top: 6vh;
-        width:15%;
-        height: 30vh;
+        margin-top: 9vh;
+        width:15vw;
+        height: 15vw;
         border-radius: 100%;
         box-shadow: 4px 3px 2px var(--color-shadow);
     }
@@ -26,7 +26,7 @@
     &__title{
         font-family: 'Press Start 2P';
         margin-top:20vh;
-        font-size: 3.2rem;
+        font-size: 2.8vw;
         color: var(--color-yellow);
         -webkit-text-stroke: 2px var(--color-black);
         text-shadow: 5px 4px 4px var(--color-black-2);
@@ -42,12 +42,11 @@
 
     &__things{
         display: flex;
-        flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
-        position: absolute;
-        bottom: 4vh;
+        position: relative;
+        top: 50px;
         width: 90%;
     }
 
@@ -77,8 +76,8 @@
         &:hover{
             cursor: pointer;
             position: relative;
-            animation-duration: 0.8s;
-            animation-name: changewidth;
+            animation-duration: 0.5s;
+            animation-name: jump;
             animation-iteration-count: infinite;
             animation-direction: alternate;
 
@@ -90,57 +89,41 @@
 
         &--1{
             padding-top: 8px;
-            width: 135px;
-            height: 145px;
+            width: 7vw;
+            height: 7.5vw;
         }
 
         &--2{
-            margin-top: 9.5vh;
-            width: 165px;
-            height: 60px;
+            margin-top: 10vh;
+            width: 8.6vw;
+            height: 3.1vw;
         }
         
         &--3{
-            margin-top: 9.5vh;
-            width: 90px;
-            height: 50px;
+            margin-top: 10vh;
+            width: 4.6vw;
+            height: 2.6vw;
         }
 
         &--4{
-            margin-top: 7vh;
-            width: 90px;
-            height: 85px;
+            margin-top: 7.5vh;
+            width: 4.6vw;
+            height: 4.4;
         }
 
         &--5{
-            margin-top: 1.5vh;
-            width: 135px;
-            height: 125px;
+            margin-top: 2.5vh;
+            width: 7vw;
+            height: 6.5vw;
         }
 
         &--6{
-            margin-top: 5.5vh;
-            width: 90px;
-            height: 90px;
+            margin-top: 6.5vh;
+            width: 4.6vw;
+            height: 4.6vw;
         }
 
     }
-
-    @keyframes changewidth {
-            0% {
-              bottom: 0px;
-            }
-            25% {
-              bottom: 5px;
-            }
-            50% {
-              bottom: 10px;
-            }
-          
-            100% {
-              bottom: 15px;
-            }
-        }
 
     
 
@@ -158,7 +141,7 @@
         margin: 30px;
         text-align: initial;
         width: 75%;
-        font-size: 1.7rem;
+        font-size: 1.5vw;
         font-weight: 700;
     }
 }
