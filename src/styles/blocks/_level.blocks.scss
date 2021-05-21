@@ -1,16 +1,16 @@
-.b-level{
-    background-color:transparent;
-    width: 35px;
-    height: 14px;
-    border: 2px solid black ;
-    border-radius: 70px;
-    margin: 0 2px;
+.b-level {
+  background-color: transparent;
+  width: 35px;
+  height: 14px;
+  border: 2px solid black;
+  border-radius: 70px;
+  margin: 0 2px;
 
-    &--green{
-        background-color: var(--color-green);
-    }
+  &--green {
+    background-color: var(--color-green);
+  }
 
-    &--shadow{
-        background-color: var(--color-shadow);
-    }
+  &--shadow {
+    background-color: var(--color-shadow);
+  }
 }

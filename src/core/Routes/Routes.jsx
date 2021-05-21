@@ -6,36 +6,27 @@ import { HomePage } from '../../pages/HomePage/HomePage';
 import { SkillsPage } from '../../pages/SkillsPage/SkillsPage';
 
 export function Routes() {
+  return (
+    <Switch>
+      <Route path="/exp">
+        <ExpPage />
+      </Route>
 
-    return (
-        
-        <Switch>
-        
-            
+      <Route path="/formation">
+        <FormationPage />
+      </Route>
 
-            <Route path="/exp">
-                <ExpPage/>
-            </Route>
+      <Route path="/skills">
+        <SkillsPage />
+      </Route>
 
-            <Route path="/formation">
-                <FormationPage/>
-            </Route>
+      <Route path="/about">
+        <AboutPage />
+      </Route>
 
-            <Route path="/skills">
-                <SkillsPage/>
-            </Route>
-            
-            <Route path="/about">
-                <AboutPage/>
-            </Route>
-
-           
-            <Route path="/">
-                <HomePage/>
-            </Route>
-
-            
-        </Switch>
-    );
-
+      <Route path="/">
+        <HomePage />
+      </Route>
+    </Switch>
+  );
 }

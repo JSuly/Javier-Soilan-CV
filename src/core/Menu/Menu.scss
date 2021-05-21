@@ -1,143 +1,138 @@
-.c-menu{
+.c-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 7vh;
+  background-color: var(--color-blue);
+
+  &__at {
+    width: 5%;
+    margin-right: 5px;
+  }
+
+  &__logo {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 7vh;
-    background-color: var(--color-blue);
+    margin-left: 3%;
+    font-size: calc(0.8rem + 1.2vw);
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--color-white);
+    text-shadow: 3px 3px 4px var(--color-blue);
 
-    &__at{
-        width: 5%;
-        margin-right: 5px;
+    &:hover {
+      -webkit-transition: 0.35s;
+      transition: 0.4s;
+      font-size: calc(0.85rem + 1.2vw);
+      text-shadow: 4px 3px 3px var(--color-black-2);
+    }
+  }
 
+  &__work {
+    font-size: 1vw;
+    font-weight: 700;
+    margin-left: 1vw;
+    margin-top: 7.5vh;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 15%;
+    margin-right: 5%;
+    font-size: 1.1vw;
+    font-weight: 700;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    color: var(--color-white);
+    text-decoration: none;
+    width: 5.3vw;
+    height: 1.4vw;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 3px 0;
+    text-shadow: 3px 3px 4px var(--color-shadow);
+    & p {
+      margin: 0;
     }
 
-    &__logo{
-        display: flex;
-        flex-direction: row;
-        margin-left: 3%;
-        font-size: calc(0.8rem + 1.2vw);
-        font-weight: 700;
-        text-decoration: none;
+    &:hover {
+      -webkit-transition: 0.25s;
+      transition: 0.2s;
+      color: var(--color-blue);
+      background-color: white;
+      box-shadow: 2px 2px 4px var(--color-shadow);
+      text-shadow: 0 var(--color-shadow);
+      width: 37%;
+      & p {
+        margin: 0;
+        margin-left: 11px;
+      }
+    }
+
+    &--active {
+      color: var(--color-blue);
+      background-color: var(--color-white);
+      text-shadow: 0 var(--color-shadow);
+      &:hover {
+        -webkit-transition: 0.25s;
+        transition: 0.4s;
         color: var(--color-white);
-        text-shadow: 3px 3px 4px var(--color-blue);
-
-        &:hover{
-            -webkit-transition: 0.35s;
-            transition: 0.4s;
-            font-size: calc(0.85rem + 1.2vw);
-            text-shadow: 4px 3px 3px var(--color-black-2);
-        }
+        background-color: var(--color-blue);
+        box-shadow: 2px 2px 4px var(--color-shadow);
+        width: 37%;
+      }
     }
+  }
 
-    
+  &__music {
+    background-image: url(../../assets/images/play.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2vw;
+    height: 2vw;
 
-    &__work{
-        font-size: 1vw;
-        font-weight: 700;
-        margin-left: 1vw;
-        margin-top:7.5vh;
+    &:hover {
+      background-image: url(../../assets/images/pausa.svg);
+      box-shadow: 4px 3px 2px var(--color-shadow-2);
+      -webkit-transition: 0.25s;
+      transition: 0.2s;
+      border-radius: 100%;
     }
+  }
 
-    &__nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 15%;
-        margin-right: 5%;
-        font-size: 1.1vw;
-        font-weight: 700;
+  &__accordion {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8vh;
+    right: 13vw;
+    width: 7%;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-blue);
+    border-radius: 20px;
+    box-shadow: 3px 2px 3px var(--color-shadow-2);
+  }
+
+  &__cv {
+    margin: 10px 0;
+    text-decoration: none;
+    color: var(--color-blue);
+
+    &:hover {
+      -webkit-transition: 0.25s;
+      transition: 0.4s;
+      text-decoration: underline 2px var(--color-blue);
     }
-
-    &__link{
-        display: flex;
-        justify-content: center;
-        color: var(--color-white);
-        text-decoration: none;
-        width: 5.3vw;
-        height: 1.4vw;
-        border: 2px solid white;
-        border-radius: 15px;
-        padding: 3px 0;
-        text-shadow: 3px 3px 4px var(--color-shadow);
-        & p{
-            margin: 0;
-        }
-
-        &:hover{
-            -webkit-transition: 0.25s;
-            transition: 0.2s;
-            color: var(--color-blue);
-            background-color: white;
-            box-shadow: 2px 2px 4px var(--color-shadow);
-            text-shadow: 0 var(--color-shadow);
-            width: 37%;
-             & p{
-                 margin: 0;
-                 margin-left: 11px;
-             }
-        }
-
-        &--active{
-            color: var(--color-blue);
-            background-color: var(--color-white);
-            text-shadow: 0 var(--color-shadow);
-            &:hover{
-                -webkit-transition: 0.25s;
-                transition: 0.4s;
-                color: var(--color-white);
-                background-color: var(--color-blue);
-                box-shadow: 2px 2px 4px var(--color-shadow);
-                width: 37%;
-            }
-        }
-
-    }
-    
-    &__music{
-        background-image: url(../../assets/images/play.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 2vw;
-        height: 2vw;
-
-        &:hover{
-            background-image: url(../../assets/images/pausa.svg);
-            box-shadow: 4px 3px 2px var(--color-shadow-2);
-            -webkit-transition: 0.25s;
-            transition: 0.2s;
-            border-radius: 100%;
-        }
-    }
-
-    &__accordion{
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            top: 8vh;
-            right: 13vw;
-            width: 7%;
-            background-color: var(--color-white);
-            border: 2px solid var(--color-blue);
-            border-radius: 20px;
-            box-shadow: 3px 2px 3px var(--color-shadow-2);
-        }
-    
-    &__cv{
-        margin: 10px 0;
-        text-decoration: none;
-        color: var(--color-blue);
-
-        &:hover{
-            -webkit-transition: 0.25s;
-            transition: 0.4s;
-            text-decoration: underline 2px var(--color-blue);
-        }
-    }    
-        
+  }
 }

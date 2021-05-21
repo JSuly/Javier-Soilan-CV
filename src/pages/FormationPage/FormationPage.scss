@@ -1,51 +1,49 @@
-.c-formation{
+.c-formation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 6vh;
+  color: var(--color-blue);
+  background-image: url(../../assets/images/city-wallpaper.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &__box {
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
-    margin-top: 6vh;
-    color: var(--color-blue);
-    background-image: url(../../assets/images/city-wallpaper.gif);
-    background-size: cover;
+    justify-content: center;
+    margin-bottom: 8vh;
+  }
+
+  &__title {
+    font-family: 'Press Start 2P';
+    font-size: 1.7rem;
+    margin: 3vh 0;
+    color: var(--color-yellow);
+    -webkit-text-stroke: 1.5px var(--color-black);
+    text-shadow: 5px 4px 4px var(--color-black-2);
+  }
+
+  &__place {
     background-repeat: no-repeat;
-    background-position: center;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+    border: 1.2vw solid var(--color-blue-shadow);
 
-    &__box{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 8vh;
+    &--dev {
+      background-image: url(../../assets/images/office.gif);
+      background-position: center;
+      background-size: 130%;
     }
 
-    &__title{
-        font-family: 'Press Start 2P';
-        font-size: 1.7rem;
-        margin: 3vh 0;
-        color: var(--color-yellow);
-        -webkit-text-stroke: 1.5px var(--color-black);
-        text-shadow: 5px 4px 4px var(--color-black-2);
+    &--kitchen {
+      background-image: url(../../assets/images/kitchen.png);
+      background-position: top;
+      background-size: 160%;
     }
-
-    &__place{
-        background-repeat: no-repeat;
-        width: 15vw;
-        height: 15vw;
-        border-radius: 100%;
-        border: 1.2vw solid var(--color-blue-shadow);
-   
-
-    &--dev{
-        background-image: url(../../assets/images/office.gif);
-        background-position: center;
-        background-size: 130%;
-    }
-
-    &--kitchen{
-        background-image: url(../../assets/images/kitchen.png);
-        background-position: top;
-        background-size: 160%;
-    } 
-}
-
+  }
 }
