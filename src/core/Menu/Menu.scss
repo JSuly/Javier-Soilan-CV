@@ -103,6 +103,7 @@
     height: 2vw;
 
     &:hover {
+      cursor: pointer;
       background-image: url(../../assets/images/pausa.svg);
       box-shadow: 4px 3px 2px var(--color-shadow-2);
       -webkit-transition: 0.25s;
