@@ -113,7 +113,7 @@ export function AboutPage() {
           {counter === 4 && (
             <PopUp
               title="COCINA:"
-              text="Desde pequeño, siempre me ha gustado cocinar, asi que, tras salir del instituto decidi dedicarme a la cocina de forma profesional. Tras 2 años de formacion, muchas horas de  trabajo y con mis practicas acabadas, consigo un trabajo de cocineo en un catering y ahi continuo formandome y trabajando hasta el inicio de la pandemia."
+              text="Desde pequeño, siempre me ha gustado cocinar, asi que, tras salir del instituto decidí dedicarme a la cocina de forma profesional. Tras 2 años de formación, muchas horas de  trabajo y con mis practicas acabadas, consigo un trabajo de cocineo en un catering y ahi continío formándome y trabajando hasta el inicio de la pandemia."
               src={Chef}
               alt="restaurant"
             />
