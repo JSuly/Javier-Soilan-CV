@@ -31,7 +31,7 @@ export function ExpPage() {
         <h3 className="c-exp__business">IKEA | 2016 | Dependiente</h3>
         <ul className="c-exp__jobs">
           <li>- Atención al cliente.</li>
-          <li>- Gestión de mercacioas, espacios y almacenaje.</li>
+          <li>- Gestión de mercancioas, espacios y almacenaje.</li>
         </ul>
       </div>
     </div>
